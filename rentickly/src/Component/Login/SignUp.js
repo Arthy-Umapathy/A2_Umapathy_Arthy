@@ -40,12 +40,12 @@ class SignUp extends React.Component {
       alert("Type a valid email id");
     } else if (userName.length <= 1) {
       alert("Type a valid username");
-    } else if (password.length <= 1) {
-      alert("Type a valid password");
+    } else if (password.length < 5) {
+      alert("Password should be of atleast 5 characters length");
     } else if (email != confirmemail) {
-      alert("Email id not same");
+      alert("Email id does not match");
     } else {
-      alert("Successfully logged in");
+      alert("Successfully registered");
     }
   };
 

@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+
 import {
   MDBContainer,
   MDBRow,
@@ -10,16 +11,14 @@ import {
   MDBLink,
 } from "mdbreact";
 import NavBar from "../LandingPage/NavBar";
-import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-import img from "./img2.jpg"
 
-class SignIn extends React.Component {
+class Resetpassword extends React.Component {
   constructor() {
     super();
     this.state = {
-      userName: "",
-      password: "",
+      newpwd: "",
+      confirmpwd: "",
     };
   }
 
@@ -30,38 +29,30 @@ class SignIn extends React.Component {
 
   onFormSubmit = (e) => {
     e.preventDefault();
-    const { userName, password } = this.state;
-    const validEmailRegex = RegExp(
-      /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
-    );
-    if (!validEmailRegex.test(userName)) {
-      alert("Type a valid email id");
-    } else if (password.length < 5) {
+    const { newpwd, confirmpwd } = this.state;
+    if (newpwd < 5) {
       alert("Password should be of atleast 5 characters length");
+    } else if (newpwd != confirmpwd) {
+      alert("Passwords don't match");
     } else {
-      alert("Successfully logged in");
+      alert("Reset password successful");
     }
   };
+
   render() {
     return (
-      <div style={{
-        backgroundImage: `url(${img})`,
-
-        backgroundPosition: "center",
-        backgroundRepeat: "no - repeat",
-        backgroundSize: "cover",
-      }}>
+      <Fragment>
         <NavBar />
         <br />
         <Fade left>
-          <MDBContainer >
+          <MDBContainer>
             <MDBRow className="d-flex justify-content-center">
               <MDBCol md="6">
-                <MDBCard >
+                <MDBCard>
                   <div className="header pt-3 blue-gradient">
                     <MDBRow className="d-flex justify-content-center">
                       <h3 className="white-text mb-3 pt-3 font-weight-bold">
-                        Sign in
+                        Resetpassword
                       </h3>
                     </MDBRow>
                   </div>
@@ -69,34 +60,25 @@ class SignIn extends React.Component {
                     <form onSubmit={this.onFormSubmit}>
                       <div className="grey-text">
                         <MDBInput
-                          label="Type your email"
+                          label="Type new password"
                           icon="envelope"
                           group
                           type="text"
                           validate
                           getValue={(value) =>
-                            this.getLoginData(value, "userName")
+                            this.getLoginData(value, "newpwd")
                           }
                         />
                         <MDBInput
-                          label="Type your password"
+                          label="Confirm password"
                           icon="lock"
                           group
                           type="password"
                           validate
                           getValue={(value) =>
-                            this.getLoginData(value, "password")
+                            this.getLoginData(value, "confirmpwd")
                           }
                         />
-                        <h5 className="font-small blue-text d-flex justify-content-end pb-3">
-                          Forgot
-                          <Link to="/Resetpassword" className="blue-text ml-1">
-                            Password?
-                          </Link>
-                        </h5>
-                        <div className="text-center">
-                          New User?<MDBLink to="SignUp">Sign Up</MDBLink>
-                        </div>
                       </div>
                       <div className="text-center py-4 mt-3">
                         <MDBBtn
@@ -114,11 +96,11 @@ class SignIn extends React.Component {
               </MDBCol>
             </MDBRow>
           </MDBContainer>
-          <br/>
+          <br />
         </Fade>
-      </div>
+      </Fragment>
     );
   }
 }
 
-export default SignIn;
+export default Resetpassword;
