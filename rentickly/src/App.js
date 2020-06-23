@@ -16,12 +16,8 @@ import PageNotFound from "./Component/LandingPage/PageNotFound";
 import SignUp from "./Component/Login/SignUp";
 import SignIn from "./Component/Login/SignIn";
 import Resetpassword from "./Component/LandingPage/Resetpassword";
-<<<<<<< HEAD
 import Review from "./Component/Review/review";
 import Chat from "./Component/Chat/Chat";
-=======
-import Review from "./Component/Review/Review";
->>>>>>> 4dbcb89e2af3ec017c67d8eb2243e9bb5dce7a23
 
 class App extends Component {
   render() {
@@ -36,12 +32,8 @@ class App extends Component {
           <Route exact path="/404" component={PageNotFound} />
           <Route exact path="/SignUp" component={SignUp} />
           <Route exact path="/SignIn" component={SignIn} />
-<<<<<<< HEAD
           <Route exact path="/Review" component={Review} />
           <Route exact path="/Chat" component={Chat} />
-=======
-          <Route exact path="/review" component={Review} />
->>>>>>> 4dbcb89e2af3ec017c67d8eb2243e9bb5dce7a23
           <Redirect to="/404" />
         </Switch>
       </Router>

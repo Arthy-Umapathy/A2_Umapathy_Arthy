@@ -1,14 +1,6 @@
 import React, { Component, Fragment } from "react";
 import NavBar from "../LandingPage/NavBar";
-import {
-  MDBContainer,
-  MDBBtn,
-  MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
-  MDBInput,
-} from "mdbreact";
+import { MDBContainer } from "mdbreact";
 
 class Review extends Component {
   state = {};
