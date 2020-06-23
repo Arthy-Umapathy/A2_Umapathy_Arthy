@@ -122,20 +122,6 @@ class Help extends Component {
                             ></textarea>
                           </div>
 
-                          {/* <div className="form-check">
-                        <input
-                          type="checkbox"
-                          className="form-check-input"
-                          id="materialContactFormCopy"
-                        />
-                        <label
-                          className="form-check-label"
-                          for="materialContactFormCopy"
-                        >
-                          Send me a copy of this message
-                        </label>
-                      </div> */}
-
                           <MDBBtn
                             type="button"
                             gradient="blue"
@@ -152,7 +138,7 @@ class Help extends Component {
               </MDBRow>
             </MDBContainer>
             <br />
-            <br/>
+            <br />
           </Fade>
         </div>
       </Fragment>
