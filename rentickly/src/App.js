@@ -18,7 +18,9 @@ import SignIn from "./Component/Login/SignIn";
 import Resetpassword from "./Component/LandingPage/Resetpassword";
 import Review from "./Component/Review/review";
 import Chat from "./Component/Chat/Chat";
-import PostAdvertisement from "./Component/PostAdvertisement/PostAd"
+import PostAdvertisement from "./Component/PostAdvertisement/PostAd";
+import RentalApplication from "./Component/RentalApplication/RentalApplication";
+import BookAppointment from "./Component/BookAppointment/BookAppointment";
 
 class App extends Component {
   render() {
@@ -36,6 +38,8 @@ class App extends Component {
           <Route exact path="/Review" component={Review} />
           <Route exact path="/PostAd" component={PostAdvertisement} />
           <Route exact path="/Chat" component={Chat} />
+          <Route exact path="/RentalApplication" component={RentalApplication} />
+          <Route exact path="/BookAppointment" component={BookAppointment} />
           <Redirect to="/404" />
         </Switch>
       </Router>
