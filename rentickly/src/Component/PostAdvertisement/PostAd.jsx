@@ -2,6 +2,7 @@ import React, {  useState } from 'react';
 import { Container, Row, Col, Button,  Form }  from "react-bootstrap"
 import "./PostAd.css"
 import { makeStyles } from '@material-ui/core/styles';
+import NavBar from "../LandingPage/NavBar";
 import { Divider } from '@material-ui/core';
 
 function PostAdvertisement()  {
@@ -41,6 +42,7 @@ function PostAdvertisement()  {
     const classes = useStyles();
     return ( 
         <div id="main__container">
+            <NavBar />
                 <h3 className="container__heading">Post Advertisement</h3>
                 <Container>
                     <h4>General Details</h4>
@@ -171,9 +173,7 @@ function PostAdvertisement()  {
                         <Col></Col>
                     </Row>
                 </Container>
-              
-            <a href="/postad" className="postAd__Button">Post Advertisement</a>
-
+                <a href="/postad" className="postAd__Button">Post Advertisement</a>
             </div>
         );
 }

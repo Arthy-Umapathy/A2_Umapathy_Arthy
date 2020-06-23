@@ -17,7 +17,7 @@ function NavBars() {
 
   const useStyles = makeStyles({
       root: {
-        background: '#343A40',
+        background: "linear-gradient(to left, #333399 0%, #0099cc 100%)",
         width: "250px",
         position: "fixed"
     },
