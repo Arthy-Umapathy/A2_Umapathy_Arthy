@@ -18,6 +18,7 @@ import SignIn from "./Component/Login/SignIn";
 import Resetpassword from "./Component/LandingPage/Resetpassword";
 import Review from "./Component/Review/review";
 import Chat from "./Component/Chat/Chat";
+import PostAdvertisement from "./Component/PostAdvertisement/PostAd"
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
           <Route exact path="/SignUp" component={SignUp} />
           <Route exact path="/SignIn" component={SignIn} />
           <Route exact path="/Review" component={Review} />
+          <Route exact path="/PostAd" component={PostAdvertisement} />
           <Route exact path="/Chat" component={Chat} />
           <Redirect to="/404" />
         </Switch>
