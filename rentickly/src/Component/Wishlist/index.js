@@ -8,7 +8,7 @@ import room3 from "../../assets/Room3.png";
 
 const Property = [
   {
-    city: "Toronto",
+    city: "Alberta",
     price: "1500",
     description:
       "Te duo diceret temporibus, suas civibus pri ad. Cu adhuc ipsum oratio vel, et fugit perpetua vel. Graeci omnium te eam, pro molestie temporibus ne. Assum saepe id cum. Vel inani utroque indoctum ea, rationibus consectetuer id vix. Cu qui idque labore, meis primis quo at, meis facilisis te mea.",
@@ -64,7 +64,7 @@ const Property = [
     image: room3,
   },
   {
-    city: "Barrie",
+    city: "Halifax",
     price: "1000",
     description:
       "Te duo diceret temporibus, suas civibus pri ad. Cu adhuc ipsum oratio vel, et fugit perpetua vel. Graeci omnium te eam, pro molestie temporibus ne. Assum saepe id cum. Vel inani utroque indoctum ea, rationibus consectetuer id vix. Cu qui idque labore, meis primis quo at, meis facilisis te mea.",
