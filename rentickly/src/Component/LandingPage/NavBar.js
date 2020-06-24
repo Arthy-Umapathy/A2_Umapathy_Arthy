@@ -105,19 +105,19 @@ function NavBars() {
                     <div className="nav__main">
                         <ul className="nav__main-items">
                             <li className="nav__main-item">
-                                <a  href="/login">Login</a>
+                                <a  href="/SignIn">Login</a>
                             </li>
                             <li className="nav__main-item">
-                                <a href="/register">Create Account</a>
+                                <a href="/SignUp">Create Account</a>
                             </li>
                             <li className="nav__main-item">
                                 <a  href="/postad">Post Ad</a>
                             </li>
                             <li className="nav__main-item">
-                                <a href="/">Forums</a>
+                                <a href="/Chat">Forums</a>
                             </li>
                             <li className="nav__main-item">
-                                <a href="/">Book a transport</a>
+                                <a href="/PostAdvertisement">PostAdv</a>
                             </li>
                         </ul>
                     </div>

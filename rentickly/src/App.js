@@ -19,6 +19,7 @@ import Resetpassword from "./Component/LandingPage/Resetpassword";
 import Review from "./Component/Review/review";
 import Chat from "./Component/Chat/Chat";
 import PostAdvertisement from "./Component/PostAdvertisement/PostAd"
+import Home from "./Component/SearchBar/Home"
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
       <Router className="container">
         <Switch>
           <Route exact path="/" component={LandingPage} />
+          <Route exact path="/Search" component={Home}/> 
           <Route exact path="/Resetpassword" component={Resetpassword} />
           <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Help" component={Help} />

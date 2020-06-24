@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "./CardUI";
-import img1 from "../assets/Halifax.jpg";
-import img2 from "../assets/Toronto.png";
-import img3 from "../assets/vancouver.jpg";
+import img1 from "./Halifax.jpg";
+import img2 from "./Toronto.png";
+import img3 from "./vancouver.jpg";
 
 class Cards extends Component {
   render() {

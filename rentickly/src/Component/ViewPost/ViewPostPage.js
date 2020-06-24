@@ -9,7 +9,6 @@ export default class ViewPost extends Component {
     return (
       <div>
         <NavigationBar />
-
         <div>
           <ListGroup variant="flush">
             <View />
