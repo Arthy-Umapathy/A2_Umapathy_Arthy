@@ -18,11 +18,13 @@ import SignIn from "./Component/Login/SignIn";
 import Resetpassword from "./Component/LandingPage/Resetpassword";
 import Review from "./Component/Review/review";
 import Chat from "./Component/Chat/Chat";
-import PostAdvertisement from "./Component/PostAdvertisement/PostAd"
-import Home from "./Component/SearchBar/Home"
-import RentalApplication from "./Component/RentalApplication/RentalApplication"
-import BookAppointment from "./Component/BookAppointment/BookAppointment"
-import WishlistPage from "./Component/Wishlist/index"
+import PostAdvertisement from "./Component/PostAdvertisement/PostAd";
+import Home from "./Component/SearchBar/Home";
+import RentalApplication from "./Component/RentalApplication/RentalApplication";
+import BookAppointment from "./Component/BookAppointment/BookAppointment";
+import WishlistPage from "./Component/Wishlist/index";
+import ViewPost from "./Component/ViewPost/ViewPostPage";
+import View from "./Component/ViewPost/ViewPost";
 
 class App extends Component {
   render() {
@@ -30,7 +32,7 @@ class App extends Component {
       <Router className="container">
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/Search" component={Home}/> 
+          <Route exact path="/Search" component={Home} />
           <Route exact path="/Resetpassword" component={Resetpassword} />
           <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Help" component={Help} />
@@ -41,7 +43,12 @@ class App extends Component {
           <Route exact path="/Review" component={Review} />
           <Route exact path="/PostAd" component={PostAdvertisement} />
           <Route exact path="/Chat" component={Chat} />
-          <Route exact path="/RentalApplication" component={RentalApplication} />
+          <Route exact path="/ViewPost" component={ViewPost} />
+          <Route
+            exact
+            path="/RentalApplication"
+            component={RentalApplication}
+          />
           <Route exact path="/BookAppointment" component={BookAppointment} />
           <Route exact path="/wishlist" component={WishlistPage} />
           <Redirect to="/404" />

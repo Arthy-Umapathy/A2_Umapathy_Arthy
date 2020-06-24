@@ -90,8 +90,8 @@ function NavBars() {
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link" href="/wishlist">
-                  Favourites
+                <a className="nav-link" href="/Search">
+                  Search Rooms
                 </a>
               </li>
             </ul>
@@ -122,7 +122,7 @@ function NavBars() {
                                 <a href="/Chat">Forums</a>
                             </li>
                             <li className="nav__main-item">
-                                <a href="/PostAdvertisement">PostAdv</a>
+                                <a href="/ViewPost">View Post</a>
                             </li>
                         </ul>
                     </div>
