@@ -21,6 +21,7 @@ import Chat from "./Component/Chat/Chat";
 import PostAdvertisement from "./Component/PostAdvertisement/PostAd";
 import RentalApplication from "./Component/RentalApplication/RentalApplication";
 import BookAppointment from "./Component/BookAppointment/BookAppointment";
+import WishlistPage from "./Component/Wishlist/index";
 
 class App extends Component {
   render() {
@@ -40,6 +41,7 @@ class App extends Component {
           <Route exact path="/Chat" component={Chat} />
           <Route exact path="/RentalApplication" component={RentalApplication} />
           <Route exact path="/BookAppointment" component={BookAppointment} />
+          <Route exact path="/wishlist" component={WishlistPage} />
           <Redirect to="/404" />
         </Switch>
       </Router>
