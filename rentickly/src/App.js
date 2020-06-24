@@ -38,6 +38,9 @@ class App extends Component {
           <Route exact path="/Review" component={Review} />
           <Route exact path="/PostAd" component={PostAdvertisement} />
           <Route exact path="/Chat" component={Chat} />
+          <Route exact path="/RentalApplication" component={RentalApplication} />
+          <Route exact path="/BookAppointment" component={BookAppointment} />
+          <Route exact path="/wishlist" component={WishlistPage} />
           <Redirect to="/404" />
         </Switch>
       </Router>

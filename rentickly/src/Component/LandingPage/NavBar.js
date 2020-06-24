@@ -89,6 +89,11 @@ function NavBars() {
                   Post Ad
                 </a>
               </li>
+              <li className="nav-item ">
+                <a className="nav-link" href="/wishlist">
+                  Favourites
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
