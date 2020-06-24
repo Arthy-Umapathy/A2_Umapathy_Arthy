@@ -26,7 +26,7 @@ function AboutUs(props) {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2020 - present"
+            date="Arthy Umapathy"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">Master's Degree</h3>
@@ -34,23 +34,27 @@ function AboutUs(props) {
               Nova Scotia,Canada
             </h4>
             <p>
-              Pursuing Master's of Applied Computer Science in Dalhousie
-              University
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              ligula in erat facilisis fermentum. Maecenas a ex elementum eros
+              blandit faucibus.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2019 - 2020"
+            date="Arthy Umapathy"
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Intern at Accenture
-            </h3>
+            <h3 className="vertical-timeline-element-title">Master's Degree</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Tamil Nadu, India
+              Nova Scotia,Canada
             </h4>
-            <p> Oracle, Java, Software Development</p>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              ligula in erat facilisis fermentum. Maecenas a ex elementum eros
+              blandit faucibus.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -58,13 +62,15 @@ function AboutUs(props) {
             date="2019"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Intern at Infosys
-            </h3>
+            <h3 className="vertical-timeline-element-title">Master's Degree</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Karnataka, India
+              Nova Scotia,Canada
             </h4>
-            <p>Python, Java, Angular</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              ligula in erat facilisis fermentum. Maecenas a ex elementum eros
+              blandit faucibus.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -72,13 +78,15 @@ function AboutUs(props) {
             date="2015 - 2019"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Bachelor's Degree
-            </h3>
+            <h3 className="vertical-timeline-element-title">Master's Degree</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Tamil Nadu,India
+              Nova Scotia,Canada
             </h4>
-            <p>BE Computer Science Engineering</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              ligula in erat facilisis fermentum. Maecenas a ex elementum eros
+              blandit faucibus.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -86,11 +94,15 @@ function AboutUs(props) {
             date="2013 - 2015"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">High School</h3>
+            <h3 className="vertical-timeline-element-title">Master's Degree</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Tamil Nadu,India
+              Nova Scotia,Canada
             </h4>
-            <p>Computer Science Branch</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              ligula in erat facilisis fermentum. Maecenas a ex elementum eros
+              blandit faucibus.
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </Fragment>

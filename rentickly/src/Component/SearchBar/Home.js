@@ -4,13 +4,16 @@ import React, { Component } from "react";
 import SearchBar from "./SearchBar";
 import Cards from "./Cards";
 import Footer from "../Footer/Footer";
+import NavBar from "../LandingPage/NavBar";
 
 export default class Home extends Component {
   render() {
     return (
       <div className="App">
-        {/* <NavigationBar /> */}
-
+        <NavBar />
+        <br />
+        <br />
+        <br/>
         <div class="Search">
           <SearchBar />
         </div>

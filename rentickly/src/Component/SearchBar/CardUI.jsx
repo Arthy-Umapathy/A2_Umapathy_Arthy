@@ -13,7 +13,7 @@ const Card = (props) => {
           <h4 className="card-title">{props.title}</h4>
           <p className="card-text text-secondary">Lorem ipsum</p>
 
-          <a href="/viewPost">
+          <a href="/wishlist">
             <Button>View Details</Button>
           </a>
         </div>
